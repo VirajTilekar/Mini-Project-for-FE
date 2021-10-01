@@ -29,7 +29,7 @@ e1=Entry(w1,textvariable=e1_value)
 e1.place(x=300,y=50,width=150,height=40)
 e1.focus()
 
-
+b1=Button(w1,text="SUGGEST PASSWORD",command=change, font=('arial',10))
 b1.place(x=180,y=160,width=190,height=40)
 
 e2_value=StringVar()
